@@ -11,7 +11,7 @@ introFront.className = 'front';
 introFront.innerHTML = `
   <div class="intro-content">
     <h1>Memory Album</h1>
-    <div><em>Reiyo Matsumoto</em></div>
+    <div><em>12C5</em></div>
     <div>🎁❤️🎁</div>
   </div>
 `;
@@ -135,4 +135,5 @@ pages.forEach((page) => {
     if (diff < -30) flipForward();
     else if (diff > 30) flipBackward();
   });
+
 });
